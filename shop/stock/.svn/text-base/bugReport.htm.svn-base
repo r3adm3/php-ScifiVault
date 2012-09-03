@@ -1,0 +1,65 @@
+<HTML>
+
+<HEAD>
+	<TITLE>Submit Bug/Feature</Title>
+</HEAD>
+
+<BODY bgcolor="#FFFFFF" text="#000000">
+<div align="center">
+  <table width="750" border="0" cellspacing="0" cellpadding="0" align="center">
+    <tr> 
+      <td> 
+        <div align="center"> 
+          <p><a href="index.htm"><img src="../images/scifi-small-best.jpg" width="403" height="62" border="0"></a></p>
+          <center>
+            <font size="3" face="Verdana, Arial, Helvetica, sans-serif"><b>S u 
+            b m i t </b>B u g . . . . .</font><font size="3"></font>
+          </center>
+</div>
+      </td>
+    </tr>
+    <tr> 
+      <td> 
+        <hr>
+        <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><a href="viewItem.htm">View</a> 
+          | <a href="updateItem.htm">Update</a> | <a href="addItem.htm">Add<br>
+          </a></font><font face="Verdana, Arial, Helvetica, sans-serif"><a href="DisplayBaskets.php">Display 
+          Baskets</a> | <a href="ListOrders.php">Current Orders</a> | <a href="CompletedOrders.php"> 
+          Completed Orders</a> | <a href="lowStock.php">Low Stock</a><br>
+          <a href="bugReport.htm">Submit a Bug</a> | <a href="displayBugs.php">View 
+          Open Bugs</a> | <a href="displayAllBugs.php">View All Bugs</a></font></p>
+        <hr>
+      </td>
+    </tr>
+  </table>
+  <BR>
+  <font size="3"><BR>
+  </font> </div>
+<CENTER>
+  <form method="POST" action="submitBug.php">
+    <font size="3">
+    <textarea name='Description' cols='50' rows='16'></textarea>
+    <br>
+    <br>
+    Priority: <select name="priority">
+        <option value="LOW">Low</option>
+        <option value="MEDIUM">Medium</option>
+        <option value="HIGH">High</option>
+
+    </select>
+    <input type="submit" value="Submit" name="B1">
+    </font>
+  </form>
+
+		</CENTER>
+</BODY>
+
+</HTML>
+
+
+
+
+
+
+
+

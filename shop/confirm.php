@@ -1,0 +1,34 @@
+
+<HTML>
+
+<HEAD>
+<meta http-equiv='refresh' content='10;url=/index3.php'>
+<link rel="stylesheet" href="stylesheets/mainstylesheet.css" type="text/css">
+</HEAD>
+
+<BODY>
+
+<table  border="0" cellspacing="0" cellpadding="5" width="900" align="center">
+  <tr>
+    <td width="500"><a href="http://shop.scifivault.com/index3.php"><img src="images/scifi-small-best.jpg" width="403" height="62" border="0"></a>
+
+    </td>
+    <td align="right" valign="top" width="300">
+      <div align="right">
+        <script language=JavaScript>
+
+    </td></tr>
+
+<tr><td>
+<br>Thankyou! Your transaction has been completed.
+
+<br> And will be dispatched by the vogon constructor fleet shortly.
+<p> You'll now be forwarded back to the front page. Click on the link below to hurray things along.
+<br><br><a href='index3.php'>Back to Shop</a></td><td></td></tr>
+
+</table>
+
+
+</BODY>
+
+</HTML>

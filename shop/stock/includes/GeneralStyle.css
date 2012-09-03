@@ -1,0 +1,15 @@
+body,td
+	{
+	font-family:tahoma;
+	font-size:11px;
+	}
+
+table 
+	{
+		border:1px solid #000;
+	}
+td,li 
+	{
+		font-family:tahoma;
+		font-size:11px;
+	}	

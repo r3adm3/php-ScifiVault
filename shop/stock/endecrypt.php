@@ -1,0 +1,9 @@
+<?php
+		include ('includes/SharedFunctionsStrict.php');
+
+		echo funcEncrypt ("APV, House Speedwell Road"); 
+
+
+		//echo bin2hex (funcDecrypt("3247eb2d28fbebef00f9038ba87e0dd8203766a7351ebc3218f9b807e5ecb5d0"));
+
+?>

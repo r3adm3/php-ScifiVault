@@ -1,0 +1,295 @@
+<html>
+
+<head>
+
+<title>The Vault StoreRoom - Add</title>
+
+	<style type="text/css">
+		@import "all.css"; /* just some basic formatting, no layout stuff */
+
+		body {
+			margin:5px 0px 0px 5px;
+			}
+
+		#topmenu {
+
+			position: absolute;
+			top:100px;
+			left:1%;
+			height:17px;
+			width:95%;
+			background:#9999CC;
+			font-family:Arial;
+			font-size:12px;
+			color:white;
+
+		}
+
+		#leftcontent {
+			position: absolute;
+			left:1%;
+			width:13%;
+			top:125px;
+			background:#fff;
+			}
+
+		#centerleftcontent {
+			position: absolute;
+			left:20%;
+			width:30%;
+			top:125px;
+			background:#fff;
+			font-size:10px;
+			font-family: tahoma;
+			}
+
+		#centerrightcontent {
+			position: absolute;
+			left:53%;
+			width:25%;
+			top:125px;
+			background:#fff;
+			}
+
+		#rightcontent {
+			position: absolute;
+			left:94%;
+			width:1%;
+			top:125px;
+			background:#fff;
+			}
+
+		#rightcontent, #centerrightcontent, #centerleftcontent, #leftcontent {
+			border:0px solid #000;
+			}
+
+		p,h1,pre {
+			margin:0px 10px 10px 10px;
+			}
+		td {
+			font-family:tahoma;
+			font-size:10px;
+		}
+
+
+
+		#centerrightcontent p { font-size:10px}
+
+	</style>
+
+</head>
+
+<body>
+<table width="750" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td>
+      <div align="center">
+        <p><a href="index.htm"><img src="../images/scifi-small-best.jpg" width="403" height="62" border="0"></a><br>
+          <font face="Verdana, Arial, Helvetica, sans-serif" size="3">T h e <b>S
+          t o c k</b> R o o m</font></p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <hr>
+      <p align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><a href="viewItem.htm">View</a>
+        | <a href="updateItem.htm">Update</a> | <a href="addItem.htm">Add<br>
+        </a></font><font face="Verdana, Arial, Helvetica, sans-serif"><a href="DisplayBaskets.php">Display
+        Baskets</a> | <a href="ListOrders.php">Current Orders</a> | <a href="CompletedOrders.php">
+        Completed Orders</a> | <a href="lowStock.php">Low Stock</a><br>
+        <a href="bugReport.htm">Submit a Bug</a> | <a href="displayBugs.php">View
+        Open Bugs</a> | <a href="displayAllBugs.php">View All Bugs</a></font></p>
+      <hr>
+    </td>
+  </tr>
+</table>
+<p align="center">&nbsp;
+<table width="750" border="0" cellspacing="0" cellpadding="0" align="center">
+  <tr>
+    <td width="375" valign="top">
+      <form method="POST" action="submitAdd.php">
+        <table >
+          <tr>
+            <td bgcolor="#FFFFCC">Subject: </td>
+            <td>
+              <input type="text" name="Subject" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">Version: </td>
+            <td>
+              <input type="text" name="Version" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">Category: </td>
+            <td>
+              <input type="text" name="Category" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">stockID:</td>
+            <td>
+              <input type="text" name="stockID" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">Barcode: </td>
+            <td>
+              <input type="text" name="Barcode" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">Name: </td>
+            <td>
+              <input type="text" name="Name" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">shortDescription:</td>
+            <td>
+              <input type="text" name="shortDescription" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">Features: </td>
+            <td>
+              <input type="text" name="Features" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">Size: </td>
+            <td>
+              <input type="text" name="Size" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">Weight: </td>
+            <td>
+              <input type="text" name="Weight" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">Cost: </td>
+            <td>
+              <input type="text" name="Cost" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">RRP: </td>
+            <td>
+              <input type="text" name="RRP" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">SaleRRP:</td>
+            <td>
+              <input type="text" name="SaleRRP" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">% Discount: </td>
+            <td>
+              <input type="text" name="percentDiscount" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">WholeSale Price:</td>
+            <td>
+              <input type="text" name="WholeSalePrice" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">Supplier: </td>
+            <td>
+              <input type="text" name="Supplier" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">Availaibility: </td>
+            <td>
+              <input type="text" name="Availability" size="20">
+              <br>
+            </td>
+          </tr>
+          <tr>
+            <td bgcolor="#FFFFCC">Stock Count: </td>
+            <td>
+              <input type='text' name='NoOfItems' size='25'>
+            </td>
+          </tr>
+        </table>
+
+    </td>
+    <td width="375" valign="top">
+      <table>
+        <tr>
+          <td  bgcolor="#FFFFCC" valign='top'>Description: </td>
+          <td>
+            <textarea name='Description' cols='50' rows='16'></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#FFFFCC">Small Picture: </td>
+          <td>
+            <input type='text' name='smallPicture' size='25'>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#FFFFCC">Large Picture: </td>
+          <td>
+            <input type='text' name='bigPicture' size='25'>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#FFFFCC">Category Tag:</td>
+          <td>
+            <input type='text' name='CategoryTag' size='25'>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#FFFFCC">Subject Tag:</td>
+          <td>
+            <input type='text' name='SubjectTag' size='25'>
+          </td>
+        </tr>
+        <tr>
+          <td bgcolor="#FFFFCC">Version Tag:</td>
+          <td>
+            <input type='text' name='VersionTag' size='25'>
+          </td>
+        </tr>
+      </table>
+      <br>
+      <center>
+        <input type="submit" value="Submit" name="B1">
+        <input type="reset" value="Reset" name="B2">
+      </center>
+
+</form>
+	</td>
+  </tr>
+</table>
+<p>&nbsp;</p>
+</body>
+
+</html>
+
+

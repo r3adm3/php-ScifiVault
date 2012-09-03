@@ -1,0 +1,29 @@
+
+<HTML>
+
+<HEAD>
+	<TITLE>
+		Scifi Vault - Register User
+	</TITLE>
+	<LINK rel="stylesheet" type="text/css" href="includes/GeneralStyle.css" />
+
+</HEAD>
+
+<BODY>
+
+	<table>
+		<FORM action="AddUser.php" method="post">
+
+			<tr><td>Username: </td><td><input type='text' name='UserName' size='20'></td></tr>
+			<tr><td>emailAddress: </td><td><input type='text' name='EmailAddress' size='20'></td></tr>
+			<tr><td>Password: </td><td><input type='password' name='Password' size='20'></td></tr>
+			<tr><td>Reconfirm Password:</td><td><input type='password' name='Password2' size='20'></td></tr>
+			<tr><td><input type='submit' name='Submit'>
+
+
+		</FORM>
+	</table>
+
+</BODY>
+
+</HTML>

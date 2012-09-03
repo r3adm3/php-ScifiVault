@@ -1,0 +1,84 @@
+[26-Oct-2006 00:03:09] PHP Parse error:  syntax error, unexpected '<' in /usr/home/sfvault/public_html/shop/stock2/includes/PreOrderView.php on line 5
+[26-Oct-2006 22:29:03] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /usr/home/sfvault/public_html/shop/stock2/includes/PreOrderView.php on line 13
+[27-Oct-2006 23:14:01] PHP Warning:  main(includes/OutstandingOrders.php) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in /usr/home/sfvault/public_html/shop/stock2/default.php on line 193
+[27-Oct-2006 23:14:01] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening 'includes/OutstandingOrders.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /usr/home/sfvault/public_html/shop/stock2/default.php on line 193
+[27-Oct-2006 23:31:49] PHP Warning:  main(includes/SharedFunctionsStrict.php) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in /usr/home/sfvault/public_html/shop/stock2/OrderView.php on line 4
+[27-Oct-2006 23:31:49] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening 'includes/SharedFunctionsStrict.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /usr/home/sfvault/public_html/shop/stock2/OrderView.php on line 4
+[27-Oct-2006 23:31:49] PHP Fatal error:  Call to undefined function:  funcsanitize() in /usr/home/sfvault/public_html/shop/stock2/OrderView.php on line 43
+[28-Oct-2006 23:19:08] PHP Parse error:  syntax error, unexpected $end in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 116
+[28-Oct-2006 23:19:42] PHP Fatal error:  Call to undefined function:  funcsanitize() in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 7
+[28-Oct-2006 23:39:48] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 116
+[31-Oct-2006 22:14:42] PHP Parse error:  syntax error, unexpected '/' in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 135
+[31-Oct-2006 22:57:55] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 132
+[31-Oct-2006 23:01:27] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 135
+[31-Oct-2006 23:06:38] PHP Parse error:  syntax error, unexpected ',', expecting ')' in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 137
+[31-Oct-2006 23:11:58] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 133
+[31-Oct-2006 23:12:33] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 131
+[31-Oct-2006 23:12:44] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 131
+[31-Oct-2006 23:12:45] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 131
+[31-Oct-2006 23:12:48] PHP Parse error:  syntax error, unexpected '<' in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 136
+[31-Oct-2006 23:42:31] PHP Parse error:  syntax error, unexpected '=' in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 131
+[31-Oct-2006 23:42:50] PHP Parse error:  syntax error, unexpected ';' in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 131
+[31-Oct-2006 23:44:20] PHP Parse error:  syntax error, unexpected '=' in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 157
+[31-Oct-2006 23:55:40] PHP Parse error:  syntax error, unexpected T_STRING in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 132
+[01-Nov-2006 21:36:54] PHP Parse error:  syntax error, unexpected '/' in /usr/home/sfvault/public_html/shop/stock2/includes/UserDetails.php on line 209
+[01-Nov-2006 22:53:14] PHP Parse error:  syntax error, unexpected '[' in /usr/home/sfvault/public_html/shop/stock2/addPreOrder.php on line 28
+[01-Nov-2006 22:53:27] PHP Parse error:  syntax error, unexpected T_VARIABLE in /usr/home/sfvault/public_html/shop/stock2/addPreOrder.php on line 98
+[05-Nov-2006 13:15:41] PHP Parse error:  syntax error, unexpected ')' in /usr/home/sfvault/public_html/shop/stock2/includes/UserLists.php on line 7
+[05-Nov-2006 13:16:20] PHP Parse error:  syntax error, unexpected '<' in /usr/home/sfvault/public_html/shop/stock2/includes/UserLists.php on line 26
+[05-Nov-2006 13:19:03] PHP Parse error:  syntax error, unexpected ';' in /usr/home/sfvault/public_html/shop/stock2/includes/UserLists.php on line 26
+[05-Nov-2006 13:20:23] PHP Parse error:  syntax error, unexpected ';' in /usr/home/sfvault/public_html/shop/stock2/includes/UserLists.php on line 26
+[10-Nov-2006 22:00:57] PHP Fatal error:  Call to undefined function:  funcsanitize() in /usr/home/sfvault/public_html/shop/stock2/includes/BasketContents.php on line 7
+[13-Nov-2006 21:44:39] PHP Parse error:  syntax error, unexpected T_STRING in /usr/home/sfvault/public_html/shop/stock2/OrderView.php on line 118
+[13-Nov-2006 22:39:54] PHP Parse error:  syntax error, unexpected T_IF, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/OrderView.php on line 101
+[13-Nov-2006 22:56:57] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/OrderView.php on line 97
+[05-Dec-2006 23:22:18] PHP Parse error:  syntax error, unexpected '}' in /usr/home/sfvault/public_html/shop/stock2/includes/SpecialItems.php on line 82
+[05-Dec-2006 23:51:35] PHP Parse error:  syntax error, unexpected $end in /usr/home/sfvault/public_html/shop/stock2/includes/Summary.php on line 132
+[10-Dec-2006 08:22:19] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/newsRSS.php on line 27
+[10-Dec-2006 08:22:37] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/newsRSS.php on line 27
+[10-Dec-2006 08:23:09] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/newsRSS.php on line 27
+[10-Dec-2006 08:23:10] PHP Parse error:  syntax error, unexpected '"', expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/newsRSS.php on line 27
+[10-Dec-2006 08:23:48] PHP Parse error:  syntax error, unexpected T_DNUMBER, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/newsRSS.php on line 16
+[10-Dec-2006 08:41:20] PHP Parse error:  syntax error, unexpected T_CONSTANT_ENCAPSED_STRING in /usr/home/sfvault/public_html/shop/stock2/newsRSS.php on line 26
+[10-Dec-2006 09:15:31] PHP Parse error:  syntax error, unexpected ';' in /usr/home/sfvault/public_html/shop/stock2/newsRSS.php on line 39
+[10-Dec-2006 09:16:52] PHP Parse error:  syntax error, unexpected ';' in /usr/home/sfvault/public_html/shop/stock2/newsRSS.php on line 39
+[10-Dec-2006 23:17:27] PHP Warning:  mysql_num_rows(): supplied argument is not a valid MySQL result resource in /usr/home/sfvault/public_html/shop/stock2/includes/News.php on line 20
+[15-Dec-2006 22:16:29] PHP Warning:  Unexpected character in input:  '\' (ASCII=92) state=1 in /usr/home/sfvault/public_html/shop/stock2/includes/ViewBugs.php on line 60
+[15-Dec-2006 22:16:29] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/includes/ViewBugs.php on line 60
+[15-Dec-2006 22:39:57] PHP Parse error:  syntax error, unexpected T_SWITCH, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/includes/ViewBugs.php on line 30
+[15-Dec-2006 22:41:33] PHP Parse error:  syntax error, unexpected T_SWITCH, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/includes/ViewBugs.php on line 30
+[15-Dec-2006 22:41:35] PHP Parse error:  syntax error, unexpected T_SWITCH, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/includes/ViewBugs.php on line 30
+[17-Dec-2006 23:13:31] PHP Parse error:  syntax error, unexpected '"', expecting T_STRING or T_VARIABLE or T_NUM_STRING in /usr/home/sfvault/public_html/shop/stock2/includes/ListAllBugs.php on line 26
+[17-Dec-2006 23:35:32] PHP Fatal error:  Cannot redeclare funcdebug() (previously declared in /usr/home/sfvault/public_html/shop/stock2/submitNewsintoDB.php:54) in /usr/home/sfvault/public_html/shop/stock2/includes/SharedFunctions.php on line 176
+[17-Dec-2006 23:36:32] PHP Fatal error:  Call to undefined function:  funcdebug() in /usr/home/sfvault/public_html/shop/stock2/submitNewsintoDB.php on line 3
+[17-Dec-2006 23:57:12] PHP Parse error:  syntax error, unexpected $end in /usr/home/sfvault/public_html/shop/stock2/default.php on line 356
+[17-Dec-2006 23:57:48] PHP Warning:  mysql_fetch_array(): supplied argument is not a valid MySQL result resource in /usr/home/sfvault/public_html/shop/stock2/default.php on line 345
+[27-Dec-2006 23:46:22] PHP Parse error:  syntax error, unexpected '/' in /usr/home/sfvault/public_html/shop/stock2/includes/SpecialItems.php on line 106
+[31-Dec-2006 09:07:14] PHP Parse error:  syntax error, unexpected T_VARIABLE in /usr/home/sfvault/public_html/shop/stock2/_logs.php on line 3
+[31-Dec-2006 09:07:31] PHP Parse error:  syntax error, unexpected T_VARIABLE in /usr/home/sfvault/public_html/shop/stock2/_logs.php on line 15
+[31-Dec-2006 09:07:55] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'james'@'localhost' (using password: NO) in /usr/home/sfvault/public_html/shop/stock2/_logs.php on line 15
+[31-Dec-2006 09:07:55] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /usr/home/sfvault/public_html/shop/stock2/_logs.php on line 15
+[31-Dec-2006 23:11:53] PHP Warning:  main(includes/ManualOrder.php) [<a href='function.main'>function.main</a>]: failed to open stream: No such file or directory in /usr/home/sfvault/public_html/shop/stock2/default.php on line 333
+[31-Dec-2006 23:11:53] PHP Warning:  main() [<a href='function.include'>function.include</a>]: Failed opening 'includes/ManualOrder.php' for inclusion (include_path='.:/usr/lib/php:/usr/local/lib/php') in /usr/home/sfvault/public_html/shop/stock2/default.php on line 333
+[10-Jan-2007 20:02:52] PHP Warning:  Wrong parameter count for strpos() in /usr/home/sfvault/public_html/shop/stock2/submitSpecialItems.php on line 19
+[10-Jan-2007 20:15:28] PHP Parse error:  syntax error, unexpected ';' in /usr/home/sfvault/public_html/shop/stock2/submitSpecialItems.php on line 19
+[10-Jan-2007 20:20:48] PHP Warning:  Wrong parameter count for strpos() in /usr/home/sfvault/public_html/shop/stock2/submitSpecialItems.php on line 20
+[10-Jan-2007 20:20:48] PHP Warning:  Wrong parameter count for substr() in /usr/home/sfvault/public_html/shop/stock2/submitSpecialItems.php on line 20
+[11-Jan-2007 23:27:39] PHP Parse error:  syntax error, unexpected T_ECHO, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock2/includes/SpecialItems.php on line 38
+[28-Jan-2007 09:14:58] PHP Parse error:  syntax error, unexpected T_IF in /usr/home/sfvault/public_html/shop/stock2/includes/ViewItem.php on line 135
+[28-Jan-2007 09:17:30] PHP Parse error:  syntax error, unexpected T_IF in /usr/home/sfvault/public_html/shop/stock2/includes/ViewItem.php on line 136
+[28-Jan-2007 09:17:31] PHP Parse error:  syntax error, unexpected T_IF in /usr/home/sfvault/public_html/shop/stock2/includes/ViewItem.php on line 136
+[28-Jan-2007 09:18:07] PHP Parse error:  syntax error, unexpected T_IF in /usr/home/sfvault/public_html/shop/stock2/includes/ViewItem.php on line 136
+[28-Jan-2007 09:18:08] PHP Parse error:  syntax error, unexpected T_IF in /usr/home/sfvault/public_html/shop/stock2/includes/ViewItem.php on line 136
+[28-Jan-2007 09:19:57] PHP Parse error:  syntax error, unexpected T_IF in /usr/home/sfvault/public_html/shop/stock2/includes/ViewItem.php on line 148
+[28-Jan-2007 09:19:59] PHP Parse error:  syntax error, unexpected T_IF in /usr/home/sfvault/public_html/shop/stock2/includes/ViewItem.php on line 148
+[28-Jan-2007 09:45:15] PHP Parse error:  syntax error, unexpected '"' in /usr/home/sfvault/public_html/shop/stock2/submitUpdate.php on line 115
+[28-Jan-2007 09:48:17] PHP Parse error:  syntax error, unexpected '}' in /usr/home/sfvault/public_html/shop/stock2/submitUpdate.php on line 78
+[28-Jan-2007 09:50:15] PHP Parse error:  syntax error, unexpected '}' in /usr/home/sfvault/public_html/shop/stock2/submitUpdate.php on line 78
+[28-Jan-2007 09:50:34] PHP Parse error:  syntax error, unexpected '}' in /usr/home/sfvault/public_html/shop/stock2/submitUpdate.php on line 78
+[30-Jan-2007 22:44:41] PHP Parse error:  syntax error, unexpected ';' in /usr/home/sfvault/public_html/shop/stock2/includes/SharedFunctionsStrict.php on line 11
+[30-Jan-2007 22:45:17] PHP Parse error:  syntax error, unexpected ';' in /usr/home/sfvault/public_html/shop/stock2/includes/SharedFunctionsStrict.php on line 11
+[30-Jan-2007 22:45:24] PHP Parse error:  syntax error, unexpected ';' in /usr/home/sfvault/public_html/shop/stock2/includes/SharedFunctionsStrict.php on line 11
+[30-Jan-2007 22:45:51] PHP Parse error:  syntax error, unexpected ';' in /usr/home/sfvault/public_html/shop/stock2/includes/SharedFunctionsStrict.php on line 11
+[02-Feb-2007 18:11:44] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Lost connection to MySQL server during query in /usr/home/sfvault/public_html/shop/stock2/includes/Link.php on line 4
+[06-Feb-2007 14:55:28] PHP Parse error:  syntax error, unexpected T_FOREACH in /usr/home/sfvault/public_html/shop/stock2/submitPreOrder.php on line 19

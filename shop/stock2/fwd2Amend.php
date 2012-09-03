@@ -1,0 +1,9 @@
+<?php
+
+	include('includes/SharedFunctions.php');
+	
+	$strStockID = funcSanitize ($_POST["stockID"]);
+
+	echo "<meta http-equiv='Refresh' content='0; url=default.php?Action=AmendItem&stockID=" . $strStockID . "'>";
+
+?>

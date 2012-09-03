@@ -1,0 +1,72 @@
+/*------------------------------------------------------------*
+**  table#Global
+**------------------------------------------------------------*/
+
+body {  
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 11px;
+}
+
+table { 
+border-collapse: collapse; 
+}
+
+td {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 12px;
+}
+
+th {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 12px;
+}
+
+/*------------------------------------------------------------*
+**  table#Full
+**------------------------------------------------------------*/
+
+
+table#Full {
+border-left: 1px solid #002A54;
+border-right: 1px solid #002A54;
+border-bottom: 1px solid #002A54;
+border-top: 1px solid #002A54;
+}
+
+td#Full {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 12px;
+}
+
+/*------------------------------------------------------------*
+**  table#Partial
+**------------------------------------------------------------*/
+
+
+table#partial {
+border-left: 1px solid #002A54;
+border-right: 1px solid #002A54;
+border-bottom: 1px solid #002A54;
+}
+
+td#partial {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 12px;
+}
+
+/*------------------------------------------------------------*
+**  table#complete
+**------------------------------------------------------------*/
+
+table#complete {
+  border-width: 0 1px 1px 1px;
+  border-style: solid;
+  border-color: #002A54;
+  }
+
+td#complete {
+font-family: Verdana, Arial, Helvetica, sans-serif; 
+font-size: 14px;
+}
+
+

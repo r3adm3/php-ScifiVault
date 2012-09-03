@@ -1,0 +1,46 @@
+<?php 
+
+	include ('includes/Link.php');
+
+	$strDateQuery = "SELECT colDate FROM tbl_News order by colDate DESC LIMIT 1";
+	
+	$strDateResult =  mysql_query($strDateQuery) or die ("Query Failed :" . mysql_error());
+
+	while ($Dateline = mysql_fetch_array($strDateResult, MYSQL_ASSOC))
+	{
+	
+		$strUpdatedLast = $Dateline ["colDate"];
+	
+	}
+	echo "<?xml version=\"1.0\"?>
+<rss version=\"2.0\">
+<channel>
+<title>Shop News</title>
+<link>http://shop.scifivault.com/stock2/newsRSS.php</link>
+<description>Latest updates in the shop</description>
+<language>en-gb</language>
+<lastBuildDate>" . $strUpdatedLast . "</lastBuildDate>
+<webMaster>adrian@scifivault.com</webMaster>";
+
+	$strRSSQuery = "SELECT * FROM tbl_News order by colDate DESC LIMIT 10";
+	
+	$strRSSResult = mysql_query($strRSSQuery) or die ("Query Failed :" . mysql_error());
+	
+	while ($RSSline = mysql_fetch_array($strRSSResult, MYSQL_ASSOC))
+			
+	{
+	
+		echo "<item>";
+		
+		echo "<title>" . $RSSline["colTitle"] . "</title>";
+		$strLink = str_replace ("&", "&amp;", $RSSline["colLink"]);
+		echo "<link>" . $strLink . "</link>";
+		echo "<description>" . $RSSline["colDescription"] . "</description>";
+		echo "<pubdate>" . date("r", strtotime($RSSline["colDate"])) . "</pubdate>";
+		
+		echo "</item>";
+	
+	}
+			
+	echo "</channel></rss>";
+?>

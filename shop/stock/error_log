@@ -1,0 +1,30 @@
+[16-Sep-2006 22:26:22] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: open(/tmp/sess_5d0c7281a8b52b6f8c189d277274ef22, O_RDWR) failed: Permission denied (13) in /usr/home/sfvault/public_html/shop/stock/DisplayBaskets.php on line 9
+[16-Sep-2006 22:26:22] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /usr/home/sfvault/public_html/shop/stock/DisplayBaskets.php:9) in /usr/home/sfvault/public_html/shop/stock/DisplayBaskets.php on line 9
+[16-Sep-2006 22:26:22] PHP Warning:  Unknown(): open(/tmp/sess_5d0c7281a8b52b6f8c189d277274ef22, O_RDWR) failed: Permission denied (13) in Unknown on line 0
+[16-Sep-2006 22:26:22] PHP Warning:  Unknown(): Failed to write session data (files). Please verify that the current setting of session.save_path is correct (/tmp) in Unknown on line 0
+[21-Sep-2006 20:18:36] PHP Parse error:  syntax error, unexpected '<' in /usr/home/sfvault/public_html/shop/stock/UserDetails.php on line 2
+[21-Sep-2006 20:19:00] PHP Parse error:  syntax error, unexpected '}' in /usr/home/sfvault/public_html/shop/stock/UserDetails.php on line 414
+[21-Sep-2006 20:19:48] PHP Fatal error:  Call to undefined function:  () in /usr/home/sfvault/public_html/shop/stock/UserDetails.php on line 101
+[21-Sep-2006 20:20:42] PHP Fatal error:  Call to undefined function:  () in /usr/home/sfvault/public_html/shop/stock/UserDetails.php on line 101
+[21-Sep-2006 20:20:46] PHP Fatal error:  Call to undefined function:  () in /usr/home/sfvault/public_html/shop/stock/UserDetails.php on line 101
+[21-Sep-2006 20:22:43] PHP Fatal error:  Call to undefined function:  () in /usr/home/sfvault/public_html/shop/stock/UserDetails.php on line 105
+[21-Sep-2006 20:22:44] PHP Fatal error:  Call to undefined function:  () in /usr/home/sfvault/public_html/shop/stock/UserDetails.php on line 105
+[21-Sep-2006 20:22:49] PHP Fatal error:  Call to undefined function:  () in /usr/home/sfvault/public_html/shop/stock/UserDetails.php on line 105
+[23-Sep-2006 22:37:53] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'james'@'localhost' (using password: NO) in /usr/home/sfvault/public_html/shop/stock/OrderView.php on line 47
+[23-Sep-2006 22:37:53] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /usr/home/sfvault/public_html/shop/stock/OrderView.php on line 47
+[23-Sep-2006 22:54:44] PHP Parse error:  syntax error, unexpected '<' in /usr/home/sfvault/public_html/shop/stock/OrderView2.php on line 91
+[23-Sep-2006 22:56:20] PHP Parse error:  syntax error, unexpected '<' in /usr/home/sfvault/public_html/shop/stock/OrderView2.php on line 91
+[23-Sep-2006 22:57:31] PHP Parse error:  syntax error, unexpected $end in /usr/home/sfvault/public_html/shop/stock/OrderView2.php on line 101
+[23-Sep-2006 23:27:20] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock/UserDetails.php on line 113
+[24-Sep-2006 08:24:57] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock/OrderView.php on line 89
+[24-Sep-2006 08:25:29] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock/OrderView.php on line 89
+[24-Sep-2006 08:25:46] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock/OrderView.php on line 89
+[24-Sep-2006 08:25:47] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock/OrderView.php on line 89
+[24-Sep-2006 08:26:21] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock/OrderView.php on line 89
+[24-Sep-2006 08:26:22] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock/OrderView.php on line 89
+[24-Sep-2006 08:26:23] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock/OrderView.php on line 89
+[24-Sep-2006 08:29:25] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /usr/home/sfvault/public_html/shop/stock/OrderView.php on line 91
+[03-Oct-2006 23:47:11] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: Access denied for user 'james'@'localhost' (using password: NO) in /usr/home/sfvault/public_html/shop/stock/summary.php on line 19
+[03-Oct-2006 23:47:11] PHP Warning:  mysql_query() [<a href='function.mysql-query'>function.mysql-query</a>]: A link to the server could not be established in /usr/home/sfvault/public_html/shop/stock/summary.php on line 19
+[03-Oct-2006 23:48:04] PHP Parse error:  syntax error, unexpected T_VARIABLE in /usr/home/sfvault/public_html/shop/stock/summary.php on line 21
+[03-Oct-2006 23:50:08] PHP Warning:  mysql_fetch_assoc(): supplied argument is not a valid MySQL result resource in /usr/home/sfvault/public_html/shop/stock/summary.php on line 21

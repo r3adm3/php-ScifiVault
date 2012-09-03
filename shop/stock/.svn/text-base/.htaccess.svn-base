@@ -1,0 +1,9 @@
+
+AuthType Basic
+
+AuthName "StoreRoom"
+
+AuthUserFile "/usr/home/sfvault/.htpasswds/shop/stock/passwd"
+
+
+require valid-user
